@@ -1,0 +1,91 @@
+.mainContainer {
+  width: 1130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.counterSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(93, 46, 140, 0.2);
+  margin-bottom: 64px;
+  padding: 120px 84px; 
+  border-radius: 12px;
+}
+
+.operatorButton {
+  width: 290px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(93, 46, 140, 1);
+  border-radius: 12px;
+  font-size: 32px;
+  color: white;
+}
+
+.counterDisplay{
+  width: 260px;
+  height: 190px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  background-color: white;
+  margin: 0 64px;
+}
+
+.buttonSection {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.txt {
+  font-style: normal;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.valuesSection {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.button {
+  width: 120px;
+  height: 55px;
+  background-color: #FF4A38;
+  border: none;
+  border-radius: 8px;
+  font-size: 24px;
+  color: white;
+}
+
+.deleteButtonContainer {
+  display: flex;
+  justify-content: right;
+  width: 70%;
+}
+
+.cellContainer {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #242424;
+  font-size: 24px;
+  margin-left: 24px;
+  margin-bottom: 36px;
+}
