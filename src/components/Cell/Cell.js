@@ -1,10 +1,12 @@
-import React from 'react';
-// import classes from './Cell.module.css';
+import React from "react";
+import classes from "./Cell.module.css";
 
-const Cell = () => {
+const Cell = ({ boxValue, sendBoxToDelete }) => {
   return (
-    <div></div>
+    <div className={classes.cellContainer} onClick={sendBoxToDelete}>
+      {boxValue}
+    </div>
   );
-}
+};
 
 export default Cell;
